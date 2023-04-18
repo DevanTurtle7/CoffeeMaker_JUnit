@@ -15,9 +15,4 @@ public class CoffeeMakerTest {
 	@After
 	public void tearDown() throws Exception {
 	}
-
-	@Test
-	public void test() {
-	}
-
 }

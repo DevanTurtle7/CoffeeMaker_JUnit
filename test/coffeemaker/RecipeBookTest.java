@@ -16,7 +16,6 @@ public class RecipeBookTest extends TestCase {
 	private Recipe recipe3;
 	private Recipe recipe4;
 	private Recipe recipe5;
-	private final int expected_num_recipes = 4;
 	
 	@Before
 	public void setUp() throws Exception {
@@ -36,7 +35,7 @@ public class RecipeBookTest extends TestCase {
 
 	@Test
 	public void testGetRecipes() {
-		assertEquals(recipeBook.getRecipes().length, expected_num_recipes);
+		assertEquals(recipeBook.getRecipes().length, 4);
 	}
 
 	@Test
