@@ -35,7 +35,8 @@ public class RecipeBookTest extends TestCase {
 
 	@Test
 	public void testGetRecipes() {
-		assertEquals(recipeBook.getRecipes().length, 4);
+		int expectedRecipeLength = 4;
+		assertEquals(recipeBook.getRecipes().length, expectedRecipeLength);
 	}
 
 	@Test
