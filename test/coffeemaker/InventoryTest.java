@@ -441,19 +441,7 @@ public class InventoryTest {
 	@Test
 	public void toStringTest() {
 		String str = inventory.toString();
-		String buf = "";
-		buf += "Coffee: ";
-    	buf += "15";
-    	buf += "\n";
-    	buf += "Milk: ";
-    	buf += "15";
-    	buf += "\n";
-    	buf += "Sugar: ";
-    	buf += "15";
-    	buf += "\n";
-    	buf += "Chocolate: ";
-    	buf += "15";
-    	buf += "\n";
+		String buf = "Coffee: 15\nMilk: 15\nSugar: 15\nChocolate: 15\n";
 		Assert.assertEquals(buf, str);
 	}
 	
