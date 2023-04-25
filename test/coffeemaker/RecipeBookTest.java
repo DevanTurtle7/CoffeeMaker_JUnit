@@ -91,7 +91,8 @@ public class RecipeBookTest extends TestCase {
 
 	@Test
 	public void testDeleteRecipeDoesntExit1() {
-		assertEquals(recipeBook.deleteRecipe(0), null);
+		String noRecipie = null;
+		assertEquals(recipeBook.deleteRecipe(0), noRecipie);
 	}
 	@Test
 	public void testDeleteRecipeDoesntExit4() {
